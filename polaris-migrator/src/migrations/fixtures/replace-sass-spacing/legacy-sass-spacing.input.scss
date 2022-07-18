@@ -1,0 +1,7 @@
+.Card {
+  background-color: var(--p-surface, color('white'));
+  padding: spacing(loose) spacing(extra-loose);
+  border-radius: var(--p-border-radius-2, border-radius());
+  box-shadow: var(--p-shadow-card, shadow());
+  outline: border-width(base) solid transparent;
+}
