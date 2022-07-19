@@ -9,6 +9,7 @@ import MobileNav from "../MobileNav";
 import type { NavItem } from "../Nav";
 
 import styles from "./Header.module.scss";
+import { useRouter } from "next/router";
 
 const headerNavItems: NavItem[] = [
   {
@@ -35,10 +36,11 @@ const headerNavItems: NavItem[] = [
 
 interface Props {
   darkMode: DarkMode;
-  currentPath?: string;
 }
 
-function Header({ darkMode, currentPath = "" }: Props) {
+function Header({ darkMode }: Props) {
+  const router = useRouter();
+  const currentPath = router.asPath;
   const [showSkipToContentLink, setShowSkipToContentLink] = useState(true);
 
   useEffect(() => {
