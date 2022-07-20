@@ -7,6 +7,7 @@ import { getUrlsFromNavItems } from "../../../utils/various";
 import { MarkdownFile } from "../../../types";
 import { foundationsNavItems } from "../../../data/navItems";
 import FoundationsPage from "../../../components/FoundationsPage";
+import Page from "../../../components/Page";
 
 interface Props {
   category: string;
@@ -14,7 +15,11 @@ interface Props {
 }
 
 const Foundations: NextPage<Props> = ({ markdownFile }) => {
-  return <FoundationsPage markdownFile={markdownFile} />;
+  return (
+    <Page>
+      <FoundationsPage markdownFile={markdownFile} />
+    </Page>
+  );
 };
 
 const foundationsDirectory = path.join(process.cwd(), "content/foundations");

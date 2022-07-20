@@ -9,6 +9,7 @@ import { contributingNavItems } from "../../data/navItems";
 import { parseMarkdown } from "../../utils/markdown.mjs";
 import { MarkdownFile } from "../../types";
 import PageMeta from "../../components/PageMeta";
+import Page from "../../components/Page";
 
 interface Props {
   readme: MarkdownFile["readme"];
@@ -16,13 +17,15 @@ interface Props {
 
 const Contributing: NextPage<Props> = ({ readme }) => {
   return (
-    <Layout title="Contributing to Polaris" navItems={contributingNavItems}>
-      <PageMeta title="Contributing to Polaris" />
+    <Page>
+      <Layout title="Contributing to Polaris" navItems={contributingNavItems}>
+        <PageMeta title="Contributing to Polaris" />
 
-      <Longform>
-        <Markdown text={readme} skipH1 />
-      </Longform>
-    </Layout>
+        <Longform>
+          <Markdown text={readme} skipH1 />
+        </Longform>
+      </Layout>
+    </Page>
   );
 };
 

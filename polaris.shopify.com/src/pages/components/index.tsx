@@ -1,5 +1,10 @@
 import ComponentsPage from "../../components/ComponentsPage";
+import Page from "../../components/Page";
 
-const Components = () => <ComponentsPage />;
+const Components = () => (
+  <Page>
+    <ComponentsPage />
+  </Page>
+);
 
 export default Components;

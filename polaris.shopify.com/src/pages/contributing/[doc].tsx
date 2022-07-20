@@ -10,6 +10,7 @@ import PageMeta from "../../components/PageMeta";
 import { contributingNavItems } from "../../data/navItems";
 import { parseMarkdown } from "../../utils/markdown.mjs";
 import { MarkdownFile } from "../../types";
+import Page from "../../components/Page";
 
 interface Props {
   readme: MarkdownFile["readme"];
@@ -20,13 +21,15 @@ const contributingDirectory = path.join(process.cwd(), "content/contributing");
 
 const Contributing: NextPage<Props> = ({ readme, title }: Props) => {
   return (
-    <Layout navItems={contributingNavItems}>
-      <PageMeta title={title} />
+    <Page>
+      <Layout navItems={contributingNavItems}>
+        <PageMeta title={title} />
 
-      <Longform>
-        <Markdown text={readme} />
-      </Longform>
-    </Layout>
+        <Longform>
+          <Markdown text={readme} />
+        </Longform>
+      </Layout>
+    </Page>
   );
 };
 

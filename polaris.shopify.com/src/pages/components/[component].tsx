@@ -15,6 +15,7 @@ import PageMeta from "../../components/PageMeta";
 import { PropsForComponent, Status } from "../../types";
 import StatusBanner from "../../components/StatusBanner";
 import PropsTable from "../../components/PropsTable";
+import Page from "../../components/Page";
 
 interface MarkdownData {
   frontMatter: any;
@@ -51,18 +52,20 @@ const Components = ({
     : undefined;
 
   return (
-    <Layout width="narrow" navItems={navItems}>
-      <PageMeta title={name} description={intro} />
+    <Page>
+      <Layout width="narrow" navItems={navItems}>
+        <PageMeta title={name} description={intro} />
 
-      <Longform>
-        <h1>{name}</h1>
-        <Markdown text={readme.header} skipH1 />
-        {typedStatus && <StatusBanner status={typedStatus} />}
-        <Examples examples={examples} />
-        {propsForComponent && <PropsTable props={propsForComponent} />}
-        <Markdown text={readme.body} skipH1 />
-      </Longform>
-    </Layout>
+        <Longform>
+          <h1>{name}</h1>
+          <Markdown text={readme.header} skipH1 />
+          {typedStatus && <StatusBanner status={typedStatus} />}
+          <Examples examples={examples} />
+          {propsForComponent && <PropsTable props={propsForComponent} />}
+          <Markdown text={readme.body} skipH1 />
+        </Longform>
+      </Layout>
+    </Page>
   );
 };
 
