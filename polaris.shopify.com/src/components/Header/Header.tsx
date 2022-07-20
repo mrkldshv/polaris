@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { DarkMode } from "use-dark-mode";
+import useDarkMode from "use-dark-mode";
 
 import GlobalSearch from "../GlobalSearch";
 import Container from "../Container";
@@ -34,14 +34,19 @@ const headerNavItems: NavItem[] = [
   // },
 ];
 
-interface Props {
-  darkMode: DarkMode;
-}
-
-function Header({ darkMode }: Props) {
+function Header() {
   const router = useRouter();
   const currentPath = router.asPath;
   const [showSkipToContentLink, setShowSkipToContentLink] = useState(true);
+
+  const darkMode = useDarkMode(false);
+
+  useEffect(() => {
+    document.documentElement.style.setProperty(
+      "color-scheme",
+      darkMode.value ? "dark" : "light"
+    );
+  }, [darkMode.value]);
 
   useEffect(() => {
     const mainContent = document.querySelector("#main");
