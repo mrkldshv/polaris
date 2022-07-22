@@ -1,5 +1,5 @@
 ---
-name: Filters
+title: Filters
 category: Lists and tables
 keywords:
   - filters
@@ -281,13 +281,13 @@ function ResourceListFiltersExample() {
             {
               id: 341,
               url: 'customers/341',
-              name: 'Mae Jemison',
+              title: 'Mae Jemison',
               location: 'Decatur, USA',
             },
             {
               id: 256,
               url: 'customers/256',
-              name: 'Ellen Ochoa',
+              title: 'Ellen Ochoa',
               location: 'Los Angeles, USA',
             },
           ]}
@@ -600,13 +600,13 @@ function FiltersExample() {
             {
               id: 341,
               url: 'customers/341',
-              name: 'Mae Jemison',
+              title: 'Mae Jemison',
               location: 'Decatur, USA',
             },
             {
               id: 256,
               url: 'customers/256',
-              name: 'Ellen Ochoa',
+              title: 'Ellen Ochoa',
               location: 'Los Angeles, USA',
             },
           ]}
@@ -731,13 +731,13 @@ function DisableAllFiltersExample() {
             {
               id: 341,
               url: 'customers/341',
-              name: 'Mae Jemison',
+              title: 'Mae Jemison',
               location: 'Decatur, USA',
             },
             {
               id: 256,
               url: 'customers/256',
-              name: 'Ellen Ochoa',
+              title: 'Ellen Ochoa',
               location: 'Los Angeles, USA',
             },
           ]}
@@ -881,13 +881,13 @@ function DisableSomeFiltersExample() {
             {
               id: 341,
               url: 'customers/341',
-              name: 'Mae Jemison',
+              title: 'Mae Jemison',
               location: 'Decatur, USA',
             },
             {
               id: 256,
               url: 'customers/256',
-              name: 'Ellen Ochoa',
+              title: 'Ellen Ochoa',
               location: 'Los Angeles, USA',
             },
           ]}
@@ -1013,13 +1013,13 @@ function Playground() {
             {
               id: 341,
               url: 'customers/341',
-              name: 'Mae Jemison',
+              title: 'Mae Jemison',
               location: 'Decatur, USA',
             },
             {
               id: 256,
               url: 'customers/256',
-              name: 'Ellen Ochoa',
+              title: 'Ellen Ochoa',
               location: 'Los Angeles, USA',
             },
           ]}
@@ -1210,13 +1210,13 @@ function ResourceListFiltersExample() {
             {
               id: 341,
               url: 'customers/341',
-              name: 'Mae Jemison',
+              title: 'Mae Jemison',
               location: 'Decatur, USA',
             },
             {
               id: 256,
               url: 'customers/256',
-              name: 'Ellen Ochoa',
+              title: 'Ellen Ochoa',
               location: 'Los Angeles, USA',
             },
           ]}
@@ -1410,13 +1410,13 @@ function ResourceListFiltersExample() {
             {
               id: 341,
               url: 'customers/341',
-              name: 'Mae Jemison',
+              title: 'Mae Jemison',
               location: 'Decatur, USA',
             },
             {
               id: 256,
               url: 'customers/256',
-              name: 'Ellen Ochoa',
+              title: 'Ellen Ochoa',
               location: 'Los Angeles, USA',
             },
           ]}
@@ -1610,13 +1610,13 @@ function ResourceListFiltersExample() {
             {
               id: 341,
               url: 'customers/341',
-              name: 'Mae Jemison',
+              title: 'Mae Jemison',
               location: 'Decatur, USA',
             },
             {
               id: 256,
               url: 'customers/256',
-              name: 'Ellen Ochoa',
+              title: 'Ellen Ochoa',
               location: 'Los Angeles, USA',
             },
           ]}

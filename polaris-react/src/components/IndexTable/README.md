@@ -1,5 +1,5 @@
 ---
-name: Index table
+title: Index table
 category: Lists and tables
 keywords:
   - ResourceList
@@ -53,7 +53,7 @@ function SimpleIndexTableExample() {
     {
       id: '3411',
       url: 'customers/341',
-      name: 'Mae Jemison',
+      title: 'Mae Jemison',
       location: 'Decatur, USA',
       orders: 20,
       amountSpent: '$2,400',
@@ -61,7 +61,7 @@ function SimpleIndexTableExample() {
     {
       id: '2561',
       url: 'customers/256',
-      name: 'Ellen Ochoa',
+      title: 'Ellen Ochoa',
       location: 'Los Angeles, USA',
       orders: 30,
       amountSpent: '$140',
@@ -126,7 +126,7 @@ function SimpleFlushIndexTableExample() {
     {
       id: '3411',
       url: 'customers/341',
-      name: 'Mae Jemison',
+      title: 'Mae Jemison',
       location: 'Decatur, USA',
       orders: 20,
       amountSpent: '$2,400',
@@ -134,7 +134,7 @@ function SimpleFlushIndexTableExample() {
     {
       id: '2561',
       url: 'customers/256',
-      name: 'Ellen Ochoa',
+      title: 'Ellen Ochoa',
       location: 'Los Angeles, USA',
       orders: 30,
       amountSpent: '$140',
@@ -199,7 +199,7 @@ function SimpleSmallScreenIndexTableExample() {
     {
       id: '3412',
       url: 'customers/341',
-      name: 'Mae Jemison',
+      title: 'Mae Jemison',
       location: 'Decatur, USA',
       orders: 20,
       amountSpent: '$2,400',
@@ -207,7 +207,7 @@ function SimpleSmallScreenIndexTableExample() {
     {
       id: '2562',
       url: 'customers/256',
-      name: 'Ellen Ochoa',
+      title: 'Ellen Ochoa',
       location: 'Los Angeles, USA',
       orders: 30,
       amountSpent: '$140',
@@ -342,7 +342,7 @@ function IndexTableWithBulkActionsExample() {
     {
       id: '3413',
       url: 'customers/341',
-      name: 'Mae Jemison',
+      title: 'Mae Jemison',
       location: 'Decatur, USA',
       orders: 20,
       amountSpent: '$2,400',
@@ -350,7 +350,7 @@ function IndexTableWithBulkActionsExample() {
     {
       id: '2563',
       url: 'customers/256',
-      name: 'Ellen Ochoa',
+      title: 'Ellen Ochoa',
       location: 'Los Angeles, USA',
       orders: 30,
       amountSpent: '$140',
@@ -438,7 +438,7 @@ function IndexTableWithMultiplePromotedBulkActionsExample() {
     {
       id: '3413',
       url: 'customers/341',
-      name: 'Mae Jemison',
+      title: 'Mae Jemison',
       location: 'Decatur, USA',
       orders: 20,
       amountSpent: '$2,400',
@@ -446,7 +446,7 @@ function IndexTableWithMultiplePromotedBulkActionsExample() {
     {
       id: '2563',
       url: 'customers/256',
-      name: 'Ellen Ochoa',
+      title: 'Ellen Ochoa',
       location: 'Los Angeles, USA',
       orders: 30,
       amountSpent: '$140',
@@ -560,7 +560,7 @@ function IndexTableWithBulkActionsAndSelectionAcrossPagesExample() {
     {
       id: '3414',
       url: 'customers/341',
-      name: 'Mae Jemison',
+      title: 'Mae Jemison',
       location: 'Decatur, USA',
       orders: 20,
       amountSpent: '$2,400',
@@ -568,7 +568,7 @@ function IndexTableWithBulkActionsAndSelectionAcrossPagesExample() {
     {
       id: '2564',
       url: 'customers/256',
-      name: 'Ellen Ochoa',
+      title: 'Ellen Ochoa',
       location: 'Los Angeles, USA',
       orders: 30,
       amountSpent: '$140',
@@ -657,7 +657,7 @@ function IndexTableWithLoadingExample() {
     {
       id: '3415',
       url: 'customers/341',
-      name: 'Mae Jemison',
+      title: 'Mae Jemison',
       location: 'Decatur, USA',
       orders: 20,
       amountSpent: '$2,400',
@@ -665,7 +665,7 @@ function IndexTableWithLoadingExample() {
     {
       id: '2565',
       url: 'customers/256',
-      name: 'Ellen Ochoa',
+      title: 'Ellen Ochoa',
       location: 'Los Angeles, USA',
       orders: 30,
       amountSpent: '$140',
@@ -731,7 +731,7 @@ function IndexTableWithFilteringExample() {
     {
       id: '3416',
       url: 'customers/341',
-      name: 'Mae Jemison',
+      title: 'Mae Jemison',
       location: 'Decatur, USA',
       orders: 20,
       amountSpent: '$2,400',
@@ -739,7 +739,7 @@ function IndexTableWithFilteringExample() {
     {
       id: '2566',
       url: 'customers/256',
-      name: 'Ellen Ochoa',
+      title: 'Ellen Ochoa',
       location: 'Los Angeles, USA',
       orders: 30,
       amountSpent: '$140',
@@ -890,7 +890,7 @@ function IndexTableWithRowStatusExample() {
     {
       id: '3411',
       url: 'customers/341',
-      name: 'Mae Jemison',
+      title: 'Mae Jemison',
       location: 'Decatur, USA',
       orders: 20,
       amountSpent: '$2,400',
@@ -899,7 +899,7 @@ function IndexTableWithRowStatusExample() {
     {
       id: '2561',
       url: 'customers/256',
-      name: 'Ellen Ochoa',
+      title: 'Ellen Ochoa',
       location: 'Los Angeles, USA',
       orders: 30,
       amountSpent: '$140',
@@ -966,7 +966,7 @@ function StickyLastCellIndexTableExample() {
     {
       id: '3411',
       url: 'customers/341',
-      name: 'Mae Jemison',
+      title: 'Mae Jemison',
       location: 'Decatur, USA',
       orders: 20,
       amountSpent: '$2,400',
@@ -978,7 +978,7 @@ function StickyLastCellIndexTableExample() {
     {
       id: '2561',
       url: 'customers/256',
-      name: 'Ellen Ochoa',
+      title: 'Ellen Ochoa',
       location: 'Los Angeles, USA',
       orders: 30,
       amountSpent: '$140',
@@ -1069,7 +1069,7 @@ function ClickThroughLinkIndexTableExample() {
     {
       id: '3411',
       url: 'customers/341',
-      name: 'Mae Jemison',
+      title: 'Mae Jemison',
       location: 'Decatur, USA',
       orders: 20,
       amountSpent: '$2,400',
@@ -1077,7 +1077,7 @@ function ClickThroughLinkIndexTableExample() {
     {
       id: '2561',
       url: 'customers/256',
-      name: 'Ellen Ochoa',
+      title: 'Ellen Ochoa',
       location: 'Los Angeles, USA',
       orders: 30,
       amountSpent: '$140',
@@ -1148,7 +1148,7 @@ function ClickThroughButtonIndexTableExample() {
     {
       id: '3411',
       url: 'customers/341',
-      name: 'Mae Jemison',
+      title: 'Mae Jemison',
       location: 'Decatur, USA',
       orders: 20,
       amountSpent: '$2,400',
@@ -1156,7 +1156,7 @@ function ClickThroughButtonIndexTableExample() {
     {
       id: '2561',
       url: 'customers/256',
-      name: 'Ellen Ochoa',
+      title: 'Ellen Ochoa',
       location: 'Los Angeles, USA',
       orders: 30,
       amountSpent: '$140',
@@ -1227,7 +1227,7 @@ function IndexTableWithoutCheckboxesExample() {
     {
       id: '3411',
       url: 'customers/341',
-      name: 'Mae Jemison',
+      title: 'Mae Jemison',
       location: 'Decatur, USA',
       orders: 20,
       amountSpent: '$2,400',
@@ -1235,7 +1235,7 @@ function IndexTableWithoutCheckboxesExample() {
     {
       id: '2561',
       url: 'customers/256',
-      name: 'Ellen Ochoa',
+      title: 'Ellen Ochoa',
       location: 'Los Angeles, USA',
       orders: 30,
       amountSpent: '$140',
@@ -1289,7 +1289,7 @@ function IndexTableWithAllElementsExample() {
     {
       id: '3417',
       url: 'customers/341',
-      name: 'Mae Jemison',
+      title: 'Mae Jemison',
       location: 'Decatur, USA',
       orders: 20,
       amountSpent: '$2,400',
@@ -1297,7 +1297,7 @@ function IndexTableWithAllElementsExample() {
     {
       id: '2567',
       url: 'customers/256',
-      name: 'Ellen Ochoa',
+      title: 'Ellen Ochoa',
       location: 'Los Angeles, USA',
       orders: 30,
       amountSpent: '$140',
@@ -1473,7 +1473,7 @@ function SmallScreenIndexTableWithAllElementsExample() {
     {
       id: '3418',
       url: 'customers/341',
-      name: 'Mae Jemison',
+      title: 'Mae Jemison',
       location: 'Decatur, USA',
       orders: 20,
       amountSpent: '$2,400',
@@ -1481,7 +1481,7 @@ function SmallScreenIndexTableWithAllElementsExample() {
     {
       id: '2568',
       url: 'customers/256',
-      name: 'Ellen Ochoa',
+      title: 'Ellen Ochoa',
       location: 'Los Angeles, USA',
       orders: 30,
       amountSpent: '$140',

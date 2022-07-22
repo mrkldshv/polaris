@@ -1,5 +1,5 @@
 ---
-name: Tabs
+title: Tabs
 category: Navigation
 keywords:
   - layout

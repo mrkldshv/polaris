@@ -1,5 +1,6 @@
 ---
-name: Callout card
+title: Callout card
+description: Callout cards are used to encourage merchants to take an action related to a new feature or opportunity. They are most commonly displayed in the sales channels section of Shopify.
 category: Structure
 keywords:
   - CalloutCard
@@ -21,12 +22,6 @@ keywords:
   - card with illustration
   - card with image
   - illustration card
----
-
-# Callout card
-
-Callout cards are used to encourage merchants to take an action related to a new feature or opportunity. They are most commonly displayed in the sales channels section of Shopify.
-
 ---
 
 ## Best practices

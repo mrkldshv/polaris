@@ -8,19 +8,6 @@ export const parseMarkdown = (inputMarkdown) => {
   // Extract front matter
   const frontMatter = yaml.load(frontMatterSection);
 
-  // Extract the content of the first paragraph
-
-  const intro = readmeSection.split("\n\n").find((paragraph) => {
-    const content = paragraph.trim().split("\n").join(" ");
-    if (paragraph.startsWith("<!--")) {
-      return false;
-    }
-    if (content.length > 0 && content[0] !== "#") {
-      return content;
-    }
-    return false;
-  });
-
   let markdown = readmeSection;
 
   // Add some custom HTML to <!-- dodont --> tags
@@ -53,7 +40,6 @@ export const parseMarkdown = (inputMarkdown) => {
 
   const out = {
     frontMatter,
-    intro,
     readme: markdown,
   };
 

@@ -1,5 +1,5 @@
 ---
-name: Resource list
+title: Resource list
 category: Lists and tables
 keywords:
   - ResourceList
@@ -52,13 +52,13 @@ A resource list with simple items and no bulk actions, sorting, or filtering.
       {
         id: 100,
         url: 'customers/341',
-        name: 'Mae Jemison',
+        title: 'Mae Jemison',
         location: 'Decatur, USA',
       },
       {
         id: 200,
         url: 'customers/256',
-        name: 'Ellen Ochoa',
+        title: 'Ellen Ochoa',
         location: 'Los Angeles, USA',
       },
     ]}
@@ -154,13 +154,13 @@ function ResourceListWithSelectionExample() {
     {
       id: 101,
       url: 'customers/341',
-      name: 'Mae Jemison',
+      title: 'Mae Jemison',
       location: 'Decatur, USA',
     },
     {
       id: 201,
       url: 'customers/256',
-      name: 'Ellen Ochoa',
+      title: 'Ellen Ochoa',
       location: 'Los Angeles, USA',
     },
   ];
@@ -216,13 +216,13 @@ function ResourceListWithBulkActionsExample() {
     {
       id: 103,
       url: 'customers/341',
-      name: 'Mae Jemison',
+      title: 'Mae Jemison',
       location: 'Decatur, USA',
     },
     {
       id: 203,
       url: 'customers/256',
-      name: 'Ellen Ochoa',
+      title: 'Ellen Ochoa',
       location: 'Los Angeles, USA',
     },
   ];
@@ -301,13 +301,13 @@ function ResourceListWithLoadingExample() {
     {
       id: 104,
       url: 'customers/341',
-      name: 'Mae Jemison',
+      title: 'Mae Jemison',
       location: 'Decatur, USA',
     },
     {
       id: 204,
       url: 'customers/256',
-      name: 'Ellen Ochoa',
+      title: 'Ellen Ochoa',
       location: 'Los Angeles, USA',
     },
   ];
@@ -384,13 +384,13 @@ function ResourceListWithTotalItemsCount() {
           {
             id: 105,
             url: 'customers/341',
-            name: 'Mae Jemison',
+            title: 'Mae Jemison',
             location: 'Decatur, USA',
           },
           {
             id: 205,
             url: 'customers/256',
-            name: 'Ellen Ochoa',
+            title: 'Ellen Ochoa',
             location: 'Los Angeles, USA',
           },
         ]}
@@ -437,13 +437,13 @@ function ResourceListWithSortingExample() {
     {
       id: 106,
       url: 'customers/341',
-      name: 'Mae Jemison',
+      title: 'Mae Jemison',
       location: 'Decatur, USA',
     },
     {
       id: 206,
       url: 'customers/256',
-      name: 'Ellen Ochoa',
+      title: 'Ellen Ochoa',
       location: 'Los Angeles, USA',
     },
   ];
@@ -503,13 +503,13 @@ function ResourceListWithAlternateToolExample() {
     {
       id: 107,
       url: 'customers/341',
-      name: 'Mae Jemison',
+      title: 'Mae Jemison',
       location: 'Decatur, USA',
     },
     {
       id: 207,
       url: 'customers/256',
-      name: 'Ellen Ochoa',
+      title: 'Ellen Ochoa',
       location: 'Los Angeles, USA',
     },
   ];
@@ -575,13 +575,13 @@ function ResourceListWithFilteringExample() {
     {
       id: 108,
       url: 'customers/341',
-      name: 'Mae Jemison',
+      title: 'Mae Jemison',
       location: 'Decatur, USA',
     },
     {
       id: 208,
       url: 'customers/256',
-      name: 'Ellen Ochoa',
+      title: 'Ellen Ochoa',
       location: 'Los Angeles, USA',
     },
   ];
@@ -801,14 +801,14 @@ Shortcut actions are intended to provide quick access to popular actions from th
       {
         id: 109,
         url: 'customers/341',
-        name: 'Mae Jemison',
+        title: 'Mae Jemison',
         location: 'Decatur, USA',
         latestOrderUrl: 'orders/1456',
       },
       {
         id: 209,
         url: 'customers/256',
-        name: 'Ellen Ochoa',
+        title: 'Ellen Ochoa',
         location: 'Los Angeles, USA',
         latestOrderUrl: 'orders/1457',
       },
@@ -857,14 +857,14 @@ Use persistent shortcut actions in rare cases when the action cannot be made ava
       {
         id: 110,
         url: 'customers/341',
-        name: 'Mae Jemison',
+        title: 'Mae Jemison',
         location: 'Decatur, USA',
         latestOrderUrl: 'orders/1456',
       },
       {
         id: 210,
         url: 'customers/256',
-        name: 'Ellen Ochoa',
+        title: 'Ellen Ochoa',
         location: 'Los Angeles, USA',
         latestOrderUrl: 'orders/1457',
       },
@@ -919,37 +919,37 @@ function ResourceListExample() {
     {
       id: 111,
       url: 'customers/231',
-      name: 'Mae Jemison',
+      title: 'Mae Jemison',
       location: 'Decatur, USA',
     },
     {
       id: 211,
       url: 'customers/246',
-      name: 'Ellen Ochoa',
+      title: 'Ellen Ochoa',
       location: 'Los Angeles, USA',
     },
     {
       id: 311,
       url: 'customers/276',
-      name: 'Joe Smith',
+      title: 'Joe Smith',
       location: 'Arizona, USA',
     },
     {
       id: 411,
       url: 'customers/349',
-      name: 'Haden Jerado',
+      title: 'Haden Jerado',
       location: 'Decatur, USA',
     },
     {
       id: 511,
       url: 'customers/419',
-      name: 'Tom Thommas',
+      title: 'Tom Thommas',
       location: 'Florida, USA',
     },
     {
       id: 611,
       url: 'customers/516',
-      name: 'Emily Amrak',
+      title: 'Emily Amrak',
       location: 'Texas, USA',
     },
   ];
@@ -1052,14 +1052,14 @@ function ResourceListExample() {
     {
       id: 112,
       url: 'customers/341',
-      name: 'Mae Jemison',
+      title: 'Mae Jemison',
       location: 'Decatur, USA',
       latestOrderUrl: 'orders/1456',
     },
     {
       id: 212,
       url: 'customers/256',
-      name: 'Ellen Ochoa',
+      title: 'Ellen Ochoa',
       location: 'Los Angeles, USA',
       latestOrderUrl: 'orders/1457',
     },

@@ -1,5 +1,5 @@
 ---
-name: Layout
+title: Layout
 category: Structure
 keywords:
   - one column
@@ -124,7 +124,7 @@ Use to create a ½ + ½ layout. Can be used to display content of equal importan
               {
                 id: 341,
                 url: 'produdcts/341',
-                name: 'Black & orange scarf',
+                title: 'Black & orange scarf',
                 sku: '9234194023',
                 quantity: '254',
                 media: (
@@ -137,7 +137,7 @@ Use to create a ½ + ½ layout. Can be used to display content of equal importan
               {
                 id: 256,
                 url: 'produdcts/256',
-                name: 'Tucan scarf',
+                title: 'Tucan scarf',
                 sku: '9234194010',
                 quantity: '201',
                 media: (
@@ -182,7 +182,7 @@ Use to create a ½ + ½ layout. Can be used to display content of equal importan
               {
                 id: 342,
                 url: 'produdcts/342',
-                name: 'Black & orange scarf',
+                title: 'Black & orange scarf',
                 sku: '9234194023',
                 quantity: '100',
                 media: (
@@ -195,7 +195,7 @@ Use to create a ½ + ½ layout. Can be used to display content of equal importan
               {
                 id: 257,
                 url: 'produdcts/257',
-                name: 'Tucan scarf',
+                title: 'Tucan scarf',
                 sku: '9234194010',
                 quantity: '201',
                 media: (
@@ -251,7 +251,7 @@ Use to create a ⅓ + ⅓ + ⅓ layout. Can be used to display content of equal 
               {
                 id: 343,
                 url: 'produdcts/343',
-                name: 'Black & orange scarf',
+                title: 'Black & orange scarf',
                 sku: '9234194023',
                 quantity: '254',
                 media: (
@@ -264,7 +264,7 @@ Use to create a ⅓ + ⅓ + ⅓ layout. Can be used to display content of equal 
               {
                 id: 258,
                 url: 'produdcts/258',
-                name: 'Tucan scarf',
+                title: 'Tucan scarf',
                 sku: '9234194010',
                 quantity: '201',
                 media: (
@@ -309,7 +309,7 @@ Use to create a ⅓ + ⅓ + ⅓ layout. Can be used to display content of equal 
               {
                 id: 344,
                 url: 'produdcts/344',
-                name: 'Black & orange scarf',
+                title: 'Black & orange scarf',
                 sku: '9234194023',
                 quantity: '100',
                 media: (
@@ -322,7 +322,7 @@ Use to create a ⅓ + ⅓ + ⅓ layout. Can be used to display content of equal 
               {
                 id: 259,
                 url: 'produdcts/259',
-                name: 'Tucan scarf',
+                title: 'Tucan scarf',
                 sku: '9234194010',
                 quantity: '201',
                 media: (
@@ -367,7 +367,7 @@ Use to create a ⅓ + ⅓ + ⅓ layout. Can be used to display content of equal 
               {
                 id: 345,
                 url: 'produdcts/345',
-                name: 'Black & orange scarf',
+                title: 'Black & orange scarf',
                 sku: '9234194023',
                 quantity: '1230',
                 media: (
@@ -380,7 +380,7 @@ Use to create a ⅓ + ⅓ + ⅓ layout. Can be used to display content of equal 
               {
                 id: 260,
                 url: 'produdcts/260',
-                name: 'Tucan scarf',
+                title: 'Tucan scarf',
                 sku: '9234194010',
                 quantity: '701',
                 media: (

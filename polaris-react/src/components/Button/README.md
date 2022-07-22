@@ -1,5 +1,6 @@
 ---
-name: Button
+title: Button
+description: Buttons are used primarily for actions, such as “Add”, “Close”, “Cancel”, or “Save”. Plain buttons, which look similar to links, are used for less important or less commonly used actions, such as “view shipping settings”.
 category: Actions
 keywords:
   - CTA
@@ -20,14 +21,6 @@ keywords:
   - link
   - click
   - submit
----
-
-# Button
-
-Buttons are used primarily for actions, such as “Add”, “Close”, “Cancel”, or “Save”. Plain buttons, which look similar to links, are used for less important or less commonly used actions, such as “view shipping settings”.
-
-For navigational actions that appear within or directly following a sentence, use the [link component](https://polaris.shopify.com/components/link).
-
 ---
 
 ## Best practices

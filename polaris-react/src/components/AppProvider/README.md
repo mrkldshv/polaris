@@ -1,5 +1,6 @@
 ---
-name: App provider
+title: App provider
+description: App provider is a required component that enables sharing global settings throughout the hierarchy of your application.
 category: Structure
 keywords:
   - app
@@ -15,12 +16,6 @@ keywords:
   - wrapper
   - sdk
 omitAppProvider: true
----
-
-# App provider
-
-App provider is a required component that enables sharing global settings throughout the hierarchy of your application.
-
 ---
 
 ## Best practices
@@ -62,13 +57,13 @@ AppProvider works by default without any additional options passed to it.
           {
             id: 341,
             url: 'customers/341',
-            name: 'Mae Jemison',
+            title: 'Mae Jemison',
             location: 'Decatur, USA',
           },
           {
             id: 256,
             url: 'customers/256',
-            name: 'Ellen Ochoa',
+            title: 'Ellen Ochoa',
             location: 'Los Angeles, USA',
           },
         ]}
@@ -122,13 +117,13 @@ With an `i18n`, `AppProvider` will provide these translations to polaris compone
           {
             id: 341,
             url: 'customers/341',
-            name: 'Mae Jemison',
+            title: 'Mae Jemison',
             location: 'Decatur, USA',
           },
           {
             id: 256,
             url: 'customers/256',
-            name: 'Ellen Ochoa',
+            title: 'Ellen Ochoa',
             location: 'Los Angeles, USA',
           },
         ]}

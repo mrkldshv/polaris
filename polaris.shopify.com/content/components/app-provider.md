@@ -1,5 +1,5 @@
 ---
-name: App provider
+title: App provider
 category: Structure
 keywords:
   - app

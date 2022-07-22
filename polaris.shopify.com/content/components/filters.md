@@ -1,5 +1,5 @@
 ---
-name: Filters
+title: Filters
 category: Lists and tables
 keywords:
   - filters

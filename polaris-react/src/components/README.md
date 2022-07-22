@@ -1,12 +1,3 @@
----
-name: Get started
-slug: get-started
-icon: ~
-categoryName: ~
-categorySlug: ~
-order: ~
----
-
 # Components
 
 Our components are a collection of interface elements that can be reused across the Shopify system.

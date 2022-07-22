@@ -1,5 +1,6 @@
 ---
-name: Color picker
+title: Color picker
+description: The color picker is used to let merchants select a color visually. For example, merchants use the color picker to customize the accent color of the email templates for their shop.
 category: Forms
 keywords:
   - ColorPicker
@@ -13,12 +14,6 @@ keywords:
   - colorpicker with transparent value
   - alpha value picker
   - alpha value selector
----
-
-# Color picker
-
-The color picker is used to let merchants select a color visually. For example, merchants use the color picker to customize the accent color of the email templates for their shop.
-
 ---
 
 ## Best practices

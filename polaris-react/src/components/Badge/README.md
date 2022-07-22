@@ -1,5 +1,6 @@
 ---
-name: Badge
+title: Badge
+description: Badges are used to inform merchants of the status of an object or of an action that’s been taken.
 category: Images and icons
 keywords:
   - pills
@@ -13,12 +14,6 @@ keywords:
   - object status
   - status
   - alert
----
-
-# Badge
-
-Badges are used to inform merchants of the status of an object or of an action that’s been taken.
-
 ---
 
 ## Best practices

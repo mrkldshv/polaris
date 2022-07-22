@@ -1,5 +1,6 @@
 ---
-name: Button group
+title: Button group
+description: Button group displays multiple related actions stacked or in a horizontal row to help with arrangement and spacing.
 category: Actions
 keywords:
   - ButtonGroup
@@ -17,12 +18,6 @@ keywords:
   - horizontal arrangement of buttons
   - stacked
   - segmented control
----
-
-# Button group
-
-Button group displays multiple related actions stacked or in a horizontal row to help with arrangement and spacing.
-
 ---
 
 ## Best practices

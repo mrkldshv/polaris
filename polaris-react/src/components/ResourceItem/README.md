@@ -1,5 +1,5 @@
 ---
-name: Resource item
+title: Resource item
 category: Lists and tables
 keywords:
   - ResourceItem
@@ -92,7 +92,7 @@ The media element can hold an [avatar](https://polaris.shopify.com/components/av
         url: 'customers/145',
         avatarSource:
           'https://burst.shopifycdn.com/photos/freelance-designer-working-on-laptop.jpg?width=746',
-        name: 'Yi So-Yeon',
+        title: 'Yi So-Yeon',
         location: 'Gwangju, South Korea',
       },
     ]}
@@ -134,7 +134,7 @@ Shortcut actions present popular actions from the resource’s details page for 
         url: 'customers/145',
         avatarSource:
           'https://burst.shopifycdn.com/photos/freelance-designer-working-on-laptop.jpg?width=746',
-        name: 'Yi So-Yeon',
+        title: 'Yi So-Yeon',
         location: 'Gwangju, South Korea',
         latestOrderUrl: 'orders/1456',
       },
@@ -181,7 +181,7 @@ Use to adjust the vertical alignment of item content.
         url: 'customers/145',
         avatarSource:
           'https://burst.shopifycdn.com/photos/freelance-designer-working-on-laptop.jpg?width=746',
-        name: 'Yi So-Yeon',
+        title: 'Yi So-Yeon',
         location: 'Gwangju, South Korea',
         lastOrder: 'Emerald Silk Gown',
       },

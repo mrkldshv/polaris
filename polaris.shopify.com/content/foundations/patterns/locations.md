@@ -1,5 +1,5 @@
 ---
-name: Locations
+title: Locations
 keywords:
   - breakpoint
   - locations

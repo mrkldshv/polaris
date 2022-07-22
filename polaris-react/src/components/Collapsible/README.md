@@ -1,5 +1,6 @@
 ---
-name: Collapsible
+title: Collapsible
+description: The collapsible component is used to put long sections of information under a block that merchants can expand or collapse.
 category: Behavior
 keywords:
   - hide
@@ -18,12 +19,6 @@ keywords:
   - show hide
   - expanding view
   - collapse
----
-
-# Collapsible
-
-The collapsible component is used to put long sections of information under a block that merchants can expand or collapse.
-
 ---
 
 ## Best practices

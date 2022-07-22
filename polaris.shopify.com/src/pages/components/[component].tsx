@@ -18,7 +18,6 @@ import PropsTable from "../../components/PropsTable";
 
 interface MarkdownData {
   frontMatter: any;
-  intro: string;
   readme: string;
 }
 

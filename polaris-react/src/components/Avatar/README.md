@@ -1,5 +1,6 @@
 ---
-name: Avatar
+title: Avatar
+description: Avatars are used to show a thumbnail representation of an individual or business in the interface.
 category: Images and icons
 keywords:
   - photo
@@ -17,12 +18,6 @@ keywords:
   - business avatar
   - customer thumbnail
   - business thumbnail
----
-
-# Avatar
-
-Avatars are used to show a thumbnail representation of an individual or business in the interface.
-
 ---
 
 ## Best practices

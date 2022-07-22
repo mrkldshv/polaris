@@ -12,7 +12,7 @@ A component README starts with metadata (in YAML), followed by the component nam
 
 ```markdown
 ---
-name: ComponentName
+title: ComponentName
 category: Category # for example: “Actions”
 keywords:
   - keywords are useful

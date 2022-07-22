@@ -1,5 +1,6 @@
 ---
-name: Combobox
+title: Combobox
+description: Combobox is an accessible autocomplete input that enables merchants to filter a list of options and select one or more values.
 category: Forms
 keywords:
   - autocomplete
@@ -9,12 +10,6 @@ keywords:
   - combo box
   - listbox
   - list box
----
-
-# Combobox
-
-Combobox is an accessible autocomplete input that enables merchants to filter a list of options and select one or more values.
-
 ---
 
 ## Anatomy

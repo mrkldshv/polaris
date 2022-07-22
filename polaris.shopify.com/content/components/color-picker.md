@@ -1,5 +1,5 @@
 ---
-name: Color picker
+title: Color picker
 category: Forms
 keywords:
   - ColorPicker
