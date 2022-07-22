@@ -3,14 +3,14 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { foundationsNavItems } from "../../data/navItems";
-import { className, getComponentNav } from "../../utils/various";
+import { className } from "../../utils/various";
 import { Breakpoints } from "../../types";
 import Button from "../Button";
 import type { NavItem } from "../Nav";
 
 import styles from "./MobileNav.module.scss";
 
-const componentsNavItems = getComponentNav();
+// const componentsNavItems = getComponentNav();
 
 const navItems: NavItem[] = [
   {
@@ -18,11 +18,11 @@ const navItems: NavItem[] = [
     url: "/",
   },
   ...foundationsNavItems,
-  {
-    title: "Components",
-    url: "/components",
-    children: componentsNavItems[0].children,
-  },
+  // {
+  //   title: "Components",
+  //   url: "/components",
+  //   children: componentsNavItems[0].children,
+  // },
   {
     title: "Tokens",
     url: "/tokens/colors",

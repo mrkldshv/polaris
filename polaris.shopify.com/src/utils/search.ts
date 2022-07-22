@@ -10,7 +10,6 @@ import Fuse from "fuse.js";
 import { slugify, stripMarkdownLinks } from "./various";
 import iconMetadata from "@shopify/polaris-icons/metadata";
 
-import components from "../data/components.json";
 import foundations from "../data/foundations.json";
 
 const MAX_RESULTS: { [key in SearchResultCategory]: number } = {
@@ -33,28 +32,28 @@ const {
 let results: SearchResults = [];
 
 // Add components
-components.forEach(({ frontMatter: { name, status }, intro }) => {
-  const typedStatus: Status | undefined = status
-    ? {
-        value: status.value.toLowerCase() as Status["value"],
-        message: status.message,
-      }
-    : undefined;
+// components.forEach(({ frontMatter: { name, status }, intro }) => {
+//   const typedStatus: Status | undefined = status
+//     ? {
+//         value: status.value.toLowerCase() as Status["value"],
+//         message: status.message,
+//       }
+//     : undefined;
 
-  results.push({
-    id: slugify(`components ${name}`),
-    category: "components",
-    score: 0,
-    url: `/components/${slugify(name)}`,
-    meta: {
-      components: {
-        name,
-        description: stripMarkdownLinks(intro),
-        status: typedStatus,
-      },
-    },
-  });
-});
+//   results.push({
+//     id: slugify(`components ${name}`),
+//     category: "components",
+//     score: 0,
+//     url: `/components/${slugify(name)}`,
+//     meta: {
+//       components: {
+//         name,
+//         description: stripMarkdownLinks(intro),
+//         status: typedStatus,
+//       },
+//     },
+//   });
+// });
 
 // Add color tokens
 Object.entries(colorLight).forEach(([tokenName, tokenValue]) => {
